@@ -557,7 +557,7 @@ body {
   visibility: hidden;
 }
 .sidebar__lower--addspace::before {
-  content: url("/public/plus.svg");
+  content: url("/plus.svg");
   position: absolute;
   top: 50%;
   left: 50%;
