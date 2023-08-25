@@ -18,13 +18,13 @@ import { Chart } from "chart.js/auto";
   }
 
   var imgGoogle = new Image();
-  imgGoogle.src = "/public/google-pattern.png";
+  imgGoogle.src = "/google-pattern.png";
   imgGoogle.onload = function () {
     const ctx = document.getElementById("stats").getContext("2d");
     var patternGoogle = ctx.createPattern(imgGoogle, "repeat-x");
 
     var imgMyCloud = new Image();
-    imgMyCloud.src = "/public/mycloud-pattern.png";
+    imgMyCloud.src = "/mycloud-pattern.png";
     imgMyCloud.onload = function () {
       var patternMyCloud = ctx.createPattern(imgMyCloud, "repeat-x");
 
