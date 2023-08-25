@@ -763,7 +763,7 @@ body {
   &.nav-active {
     display: flex;
     width: 78vw;
-    padding: 35px 30px;
+    padding: 35px 30px 45px;
     animation: appearX 0.3s ease-out forwards;
 
     @keyframes appearX {
@@ -1083,6 +1083,7 @@ body {
       @include mq($br-tablet) {
         & .rufm-layout {
           flex-flow: row wrap;
+          gap: 40px;
 
           & > div {
             flex: 1 300px;
@@ -1099,6 +1100,7 @@ body {
   & .rufm-layout {
     @container (min-width: 600px) {
       flex-direction: row;
+      gap: 0;
     }
   }
 
@@ -1446,6 +1448,7 @@ body {
 .rufm-layout {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 
   & > .recently-uploaded {
     flex: 1 calc(45% - 18px);
@@ -1502,7 +1505,8 @@ body {
       border-radius: 10px;
 
       & img {
-        width: 100%;
+        width: 44px;
+        height: 44px;
       }
     }
 
@@ -1643,6 +1647,7 @@ body {
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
     margin-bottom: 30px;
+    color: #25396F;
   }
 
   &__graph {
