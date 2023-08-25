@@ -69,7 +69,8 @@ html {
 
 body {
   font-family: "Sofia Pro";
-  // overflow-x: hidden;
+  overflow-x: hidden;
+  background-color: #ffffff;
 }
 
 // ==========================
@@ -761,7 +762,7 @@ body {
 
   &.nav-active {
     display: flex;
-    width: 70vw;
+    width: 78vw;
     padding: 35px 30px;
     animation: appearX 0.3s ease-out forwards;
 
@@ -1648,6 +1649,10 @@ body {
     max-width: 550px;
     min-width: 300px;
     width: 100%;
+
+    & #stats {
+      background-color: #fff;
+    }
   }
 }
 // ==========================
